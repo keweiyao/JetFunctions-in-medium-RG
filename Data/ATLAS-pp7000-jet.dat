@@ -1,0 +1,46 @@
+#: table_doi: 10.17182/hepdata.69343.v1/t1					
+#: name: Table 1					
+#: description: Measured double-differential inclusive-jet cross section for the range 0.0 <= |y| < 0.5 and for anti-kT jets with radius parameter R = 0.4. It is based on the data sample of proton-proton collisions at 7 TeV of centre-of-mass energy collected in 2011 by the ATLAS experiment at the LHC. The data sample corresponds to the integrated luminosity of 4.5 fb^-1.					 The statistical uncertainties arising from data and MC simulation have been combined.					 All the components of the systematic uncertainty are shown. They are: all the components of the jet energy scale uncertainty (jesX)	 the uncertainty of the jet energy resolution (jer)	 the uncertainty of the jet angular resolution (jar)	 the uncertainty of data unfolding (unfold)	 the uncertainty of the jet quality selection (qual)	 the luminosity uncertainty (lumi). All the components are assumed to be independent of each other. Each component is assumed to be fully correlated in pT and eta. Concerning the shape of the different components					
+#: data_file: Table1.yaml					
+#: keyword reactions: P P --> JET X					
+#: keyword observables: D2SIG/DPT/DYRAP					
+#: keyword phrases: Inclusive | Double Differential Cross Section | Transverse Momentum Dependence | Rapidity Dependence | Proton-Proton Scattering | Jet Production					
+#: keyword cmenergies: 7000.0					
+#: ABS(YRAP)			0.0-0.5		
+#: Correlation assumptions			Nominal		
+#: R			0.4		
+#: RE			P P --> JET X		
+#: SQRT(S) [GeV]			7000		
+# PT(JET) [GEV]	PT(JET) [GEV] LOW	PT(JET) [GEV] HIGH	D2(SIG)/DPT(JET)/DYRAP [PB*GEV**-1]	stat +	stat -
+108	100	116	4230	0.89	-0.89
+125	116	134	2020	0.89	-0.89
+143	134	152	988	0.97	-0.97
+162	152	172	502	0.82	-0.82
+183	172	194	258	0.67	-0.67
+205	194	216	137	0.79	-0.79
+228	216	240	75.5	0.62	-0.62
+252	240	264	42.8	0.75	-0.75
+277	264	290	24.7	0.92	-0.92
+304	290	318	14.4	1.1	-1.1
+332	318	346	8.4	1.1	-1.1
+361	346	376	5.14	0.8	-0.8
+392	376	408	3.11	0.58	-0.58
+425	408	442	1.89	0.51	-0.51
+460	442	478	1.13	0.51	-0.51
+497	478	516	0.683	0.39	-0.39
+536	516	556	0.419	0.41	-0.41
+577	556	598	0.253	0.47	-0.47
+620	598	642	0.155	0.57	-0.57
+665	642	688	0.0948	0.69	-0.69
+712	688	736	0.058	0.85	-0.85
+761	736	786	0.0361	1.0	-1.0
+812	786	838	0.0222	1.3	-1.3
+866	838	894	0.0131	1.6	-1.6
+923	894	952	0.00794	2.1	-2.1
+982	952	1012	0.00498	2.6	-2.6
+1044	1012	1076	0.00297	3.3	-3.3
+1119	1076	1162	0.00167	3.9	-3.9
+1236	1162	1310	0.0007	5.3	-5.3
+1420	1310	1530	0.000155	10.0	-10.0
+1761	1530	1992	1.17E-05	25.0	-25.0
+
